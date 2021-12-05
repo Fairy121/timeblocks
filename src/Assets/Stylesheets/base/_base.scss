@@ -1,0 +1,21 @@
+// primary colors
+$light:#FFFDFD;
+$medium:#F8F7F7;
+$dark:#676464;
+$extra_dark:#2E2D2D;
+
+// Typography
+$base_family:"Raleway",sans-serif;
+
+// type scales
+$text-sm:0.75rem;
+$text-md:1rem;
+$text-lg:1.125rem;
+$text-xl:1.5rem;
+
+
+//spacing
+$spacing-base:8px;
+@function spacing($factor) {
+    @return calc(8px*$factor);
+}
